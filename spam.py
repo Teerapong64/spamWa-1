@@ -87,7 +87,7 @@ class spam:
 			"Content-Type":"application/json;charset=UTF-8",
 			"Referer":"https://lite.altbalaji.com/subscribe?progress=input",
 			"Accept-Encoding":"gzip, deflate, br",
-			"Accept-Language":"en-IN,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,hi;q=0.6"
+			"Accept-Language":"th-TH,th;q=0.9,en-GB;q=0.8,en-US;q=0.7,hi;q=0.6"
 			}
 		req=requests.post(urlb,data=json.dumps(ata),headers=head)
 		if '{"status":"ok"}' in req.text:
